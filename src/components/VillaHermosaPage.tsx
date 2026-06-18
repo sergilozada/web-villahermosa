@@ -1,4 +1,5 @@
 import villaVideo from "../assets/villa-hermosa.mp4";
+import villaHermosaLogo from "../assets/villahermosalogo.png";
 
 import ExperienciaVilla from "./ExperienciaVilla";
 import Beneficios from "./Beneficios";
@@ -21,15 +22,27 @@ export default function VillaHermosaPage() {
         <div className="villa-video-overlay" />
 
         <div className="villa-video-content">
-          <span>Condominio Villa Hermosa</span>
+          <div className="villa-hero-logo-badge">
+            <img
+              src={villaHermosaLogo}
+              alt="Condominio Villa Hermosa"
+              className="villa-hero-logo"
+            />
+          </div>
 
-          <h1>Vive, invierte y disfruta cerca a la naturaleza</h1>
+          <h1>Vive, invierte y disfruta entre dunas y mar</h1>
 
           <p>
-            Descubre Condominio Villa Hermosa, un proyecto pensado para familias
-            e inversionistas que buscan tranquilidad, proyección y una
-            oportunidad inmobiliaria con visión de crecimiento.
+            Descubre el "Condominio Villa Hermosa", un refugio ecoturístico
+            cerca de Carhuaz, en Ica, pensado para familias e inversionistas que
+            buscan tranquilidad, descanso y proyección en un entorno turístico
+            con alto potencial de crecimiento.
           </p>
+
+          <div className="villa-hero-highlight">
+            Invierte, disfruta y rentabiliza tu casa de campo con un sistema
+            administrado profesionalmente.
+          </div>
 
           <div className="villa-video-actions">
             <a href="#plano-general" className="villa-video-btn-primary">

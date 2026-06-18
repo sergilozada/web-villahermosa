@@ -67,7 +67,10 @@ export default function PlanoGeneral() {
           </div>
 
           <aside className="quote-card-premium">
-            <div className="quote-badge">{activeEtapa.badge}</div>
+            <div className="quote-badge">
+              <span>{activeEtapa.badge}</span>
+              <small>DESDE</small>
+            </div>
 
             <h3>Cotizar lote</h3>
 
@@ -83,7 +86,7 @@ export default function PlanoGeneral() {
 
             <div className="quote-detail">
               <small>Cuotas desde</small>
-              <strong>S/ 275</strong>
+              <strong>S/ 274</strong>
             </div>
 
             <a href="/contacto" className="quote-button">
